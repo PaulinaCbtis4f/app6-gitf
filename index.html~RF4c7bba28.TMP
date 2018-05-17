@@ -1,0 +1,304 @@
+﻿<!doctype html>
+<html>
+ <head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ <meta charset="utf-8">
+ <title>  Batalla de Puebla </title>
+ 
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema_app6.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+ <!--grupo JavaScript-->
+ <script src ="js/jquery-1.11.2.min.js"></script>
+ <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+ <!--  <script src="js/acciones.js"></script -->
+ 	<script src="phonegap.js"></script>
+ 	<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+ </head>
+
+ <body onLoad="MM_preloadImages('imagenes/foto$.jpg','imagenes/foto1.jpg','imagenes/batalla6.jpg','imagenes/batalla2.jpg','imagenes/batalla5.jpg')">
+ 	<div data-role="page" id="Principal" data-theme="a">
+ 		<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ 			<h1> Batalla de Puebla</h1>
+ 		</div>
+ 		<div data-role="main" class="ui-content">
+ 			<div data-role="collapsible" data-content-theme="false">
+ 				<h1>Batalla del 4 de Mayo</h1>
+ 				<div>
+ 					<p>Batalla de Atlixco (1862):</p>
+ 					<br>
+ 				</div>
+ 				<div>
+ 					<img src="imagenes/batalla.jpg" width="30%" height="30%">
+ 				</div>
+ 			</div>
+            <div data-role="collapsible" data-content-theme="false">
+ 				<h1> Batalla del 5 de Mayo</h1>
+ 				<div>
+ 					<p>Batalla de Puebla (1862):</p>
+ 					<br>
+ 				</div>
+ 				<div>
+ 					<img src="imagenes/batalla1.jpg"width="30%" height="30%">
+ 				</div>
+ 			</div>
+ 		</div>
+ 		<div>
+ 			<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+            <li class="ui-first-child ui-last-child">
+            <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Batalla 4 de mayo </h2>
+            </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+            <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Batalla 5 de mayo </h2>
+           </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Inicio del conflicto </h2>
+          </a>
+         </li>
+         <li class=" ui-first-child ui-last-child">
+          <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2> Monumentos de la batalla y/o museos  </h2>
+          </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+          <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>  Héroes de la batalla </h2>
+
+         </a>
+        </li>
+        </ul>
+       </div>
+       
+       <a href="http://repositorio.colmex.mx/downloads/r494vn029" target="_self">Para más información sobre la batalla del 4 de mayo. </a>
+       <br>
+    <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" target="_self">Para más información sobre la batalla del 5 de mayo. </a>
+    <br>
+  <a href="https://www.angelopolis.com/museos-de-puebla/" target="_self">Para más información sobre los museos. </a>
+  
+       <div style="width:40%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+     <a href=""https://www.angelopolis.com/museos-de-puebla/"" data-role="button">
+      <h2> museos </h2>
+   </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+ </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+      <img src="imagenes/icono.png" width="46" height="46">
+        </div>
+        <div>
+          <h4> Aplicacion 6</h4>
+          <h4> Paulina Camacho Amador</h4>
+         </div>
+      </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Batalla 4 de mayo</h1>
+         </div>
+         <div data-role="content" align="center">
+           <div>
+           <h1> Batalla de Atlixco (1862): </h1>
+            <h2> La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.1​
+
+Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.
+
+Rocío García Olmedo  Visto: 2735
+5 de mayo de 2013
+
+Atlixco tiene una larga historia de contribuciones a la construcción de éste país  y este Estado de Puebla.
+
+Desde la etapa de colonización hispana, fue un lugar privilegiado y codiciado.  Sus condiciones de fertilidad, abundancia de agua y mano de obra, propiciaron una gran riqueza agrícola basada en el cultivo del trigo, por lo que fue considerada como “el primer granero de la Nueva España”.  Su importancia económica ha sido plasmada en diversos testimonios de aquella época recogidos en el libro “Antigua Villa de Carrión”, de la autoría de Marco Díaz.
+
+Su participación en la causa de la Independencia, -donde destacan José Luis Rodríguez de Alconedo y Francisco Pablo Vázquez-  le otorgaron, de parte del General Nicolás Bravo en 1843 la denominación de “Noble y Leal Ciudad de Atlixco”.
+
+El esfuerzo de construcción de nuestro país, pasa por una serie de invasiones. Por ello habrá que recordar también, la defensa que hizo Atlixco en contra de los españoles que intentaban reconquistar a México en 1825; y la intervención que tuvo en 1914 durante la invasión estadounidense en el gobierno de Victoriano Huerta
+ </h2>
+                   </div>
+ 	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/batalla6.jpg',1)"><img src="imagenes/batalla7.jpg" width="800" height="533" id="Image29"></a>
+                   </div>
+                 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                 <div>
+                 <img src="imagenes/icono.png" width="46" height="46">
+                  </div>
+                  <h4> Aplicacion 6, PCA </h4>
+                 </div>
+                 </div>
+                 
+        <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+           <h1> Batalla 5 de mayo </h1>
+          </div>
+          <div data-role="content" align="center">
+           <div> 
+           <h1> Batalla de Puebla (1862): </h1>
+            <h2> nmarcada en la segunda intervención francesa, la Batalla de Puebla enfrentó al ejército invasor con el comandado por el general Ignacio Zaragoza. Una lucha entre una fuerza imperial compuesta de seis mil 48 efectivos, bien equipada y entrenada, contra un ejército de cuatro mil 700 combatientes, en su mayoría veteranos, más la ayuda de algunos civiles armados.
+
+
+
+La escaramuza comenzó el cinco de mayo de 1862, y se prolongó durante cinco años más. Este conflicto armado tiene su origen a su vez en otra disputa, la Guerra de Reforma, librada por conservadores y liberales, éstos últimos liderados por Benito Juárez, quienes lograron sobreponerse y llegar a la presidencia. Ya en el poder, se instauran las Leyes de Reforma, que incluían la separación de la Iglesia y el Estado, la nacionalización de los bienes eclesiásticos y la libertad de cultos.
+La Guerra de Reforma provocó una seria escasez de recursos, misma que motivó al mandatario Benito Juárez a suspender por dos años los pagos de la deuda externa, y así recuperar la economía del país. El 31 de octubre de 1861, representantes de Francia, España y Gran Bretaña se reunieron en Londres para establecer un ultimátum y exigir la reanudación del pago que ascendía a 80 millones de dólares.
+
+
+
+Al no recibir una respuesta, amenazaron con una invasión a las fronteras que se concretó el cinco de marzo de 1862, cuando un contingente francés llegó a las costas mexicanas. Para el cinco de mayo ya estaban en la ciudad de Puebla y ahí se desató la contienda más importante.
+</h2></div>
+                          <div data-role="content" align="center">
+                          
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/batalla2.jpg" alt="batalla2" title="batalla2" id="wows1_0"/></li>
+		<li><img src="data1/images/batalla.jpg" alt="batalla" title="batalla" id="wows1_1"/></li>
+		<li><img src="data1/images/batalla1.jpg" alt="batalla1" title="batalla1" id="wows1_2"/></li>
+		<li><img src="data1/images/batalla9.jpg" alt="batalla9" title="batalla9" id="wows1_3"/></li>
+		<li><img src="data1/images/batalla3.jpg" alt="batalla3" title="batalla3" id="wows1_4"/></li>
+		<li><img src="data1/images/batalla4.jpg" alt="batalla4" title="batalla4" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/batalla5.jpg" alt="wowslider" title="batalla5" id="wows1_6"/></a></li>
+		<li><img src="data1/images/batalla6.jpg" alt="batalla6" title="batalla6" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="batalla2"><span><img src="data1/tooltips/batalla2.jpg" alt="batalla2"/>1</span></a>
+		<a href="#" title="batalla"><span><img src="data1/tooltips/batalla.jpg" alt="batalla"/>2</span></a>
+		<a href="#" title="batalla1"><span><img src="data1/tooltips/batalla1.jpg" alt="batalla1"/>3</span></a>
+		<a href="#" title="batalla9"><span><img src="data1/tooltips/batalla9.jpg" alt="batalla9"/>4</span></a>
+		<a href="#" title="batalla3"><span><img src="data1/tooltips/batalla3.jpg" alt="batalla3"/>5</span></a>
+		<a href="#" title="batalla4"><span><img src="data1/tooltips/batalla4.jpg" alt="batalla4"/>6</span></a>
+		<a href="#" title="batalla5"><span><img src="data1/tooltips/batalla5.jpg" alt="batalla5"/>7</span></a>
+		<a href="#" title="batalla6"><span><img src="data1/tooltips/batalla6.jpg" alt="batalla6"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+                   </div>
+                   </div>
+          <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+          <div>
+            <img src="imagenes/icono.png" width="46" height="46">
+            </div>
+           <h4> Aplicacion 6, PCA </h4>
+            </div>
+ </div>
+              
+              
+              <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+               <h1>Inicio del conflicto</h1>
+              </div>
+              <div data-role="content" align="center">
+               <div>
+                 <h2>En mayo de 1861, el presidente Benito Juárez anunció la suspensión de los pagos de deuda la mexicana. Como consecuencia, los acreedores que eran Francia, Inglaterra y España firmaron la conocida Convención de Londres por la cual se comprometían enviar contingentes militares hacia el territorio mexicano con el fin hacer valer los derechos como acreedores.
+En diciembre del mismo año, llegaron al puerto de Veracruz los primeros militares mientras que en enero de 1862 arribaron las tropas inglesas y francesas. Una vez en el país, los representantes de los tres países acreedores enviaron un ultimátum al gobierno de México exigiéndole el pago de las deudas ya que de lo contrario invadirían el país. Juárez, al ver que la invasión era un riesgo evidente, solicitó negociar para llegar a un acuerdo amistoso al tiempo que derogó el decreto que llevó a los países acreedores a iniciar acciones militares.
+El presidente Juárez viendo la posibilidad de una invasión militar a la Ciudad de México ordenó la fortificación de Puebla al mismo tiempo que creó una nueva unidad militar conocida como Ejército de Oriente. Esta en un principio estuvo bajo las órdenes de José López Uraga pero debido a su mal desempeño el mando recayó en las manos del hasta entonces Ministro de Guerra, Zaragoza. Él tuvo la tarea de organizar las fuerzas, que sumaban unos 10.000 hombres, para repeler el ataque del ejército francés.
+Los representantes de los países acreedores aceptaron la propuesta de negociación y en febrero de 1862 se reunieron con los ministros Manuel Doblado (Mtro. De Exterior) e Ignacio Zaragoza (Mtro. de Guerra). La reunión se llevó a cabo en la hacienda La Soledad muy próxima a Veracruz. Esta negociación derivó en la firma de los Tratados preliminares de La Soledad mediante los cuales España, Francia e Inglaterra se comprometían a reconocer la independencia del país. En cuanto a la deuda, se aceptó que las negociaciones se realizasen en Orizaba, Córdoba y Tehuacán. En caso de no llegar a un acuerdo, se comenzarían las campañas militares desde las costas.
+                 </h2></div>
+               <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/batalla3.jpeg',1)"><img src="imagenes/batalla5.jpg" width="30%" height="30%" id="Image28"></a> </div>
+                 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                 <div>
+                   <img src="imagenes/icono.png" width="46" height="46">
+                   </div>
+                  <h4> Aplicacion 6, PCA </h4>
+                </div>
+ </div>
+                 
+                 
+                 <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+                  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                  <h1>  Monumentos de la batalla y/o museos </h1>
+                 </div>
+                 <div data-role="content" align="center">
+                  <div>
+                   <h2>
+                   Descripción enviada por el equipo del proyecto. En Puebla,  ciudad de leyendas e inmensa riqueza cultural, encontramos un caleidoscopio de edificaciones, texturas e interacciones que se entremezclan para regalarnos un mosaico de la actual cultura poblana. Dentro de éste marco, al noreste del zócalo se encuentra un complejo que agrupa diversos espacios para la cultura, educación y recreación; sitio que alberga al “Monumento Emblemático” del 150 Aniversario de la Batalla de Puebla. 
+                   <br>
+                   Descripción enviada por el equipo del proyecto. En Puebla,  ciudad de leyendas e inmensa riqueza cultural, encontramos un caleidoscopio de edificaciones, texturas e interacciones que se entremezclan para regalarnos un mosaico de la actual cultura poblana. Dentro de éste marco, al noreste del zócalo se encuentra un complejo que agrupa diversos espacios para la cultura, educación y recreación; sitio que alberga al “Monumento Emblemático” del 150 Aniversario de la Batalla de Puebla. 
+                   <br>
+                   Dentro de estos intersticios, el programa se traduce en una galería de usos múltiples que en su parte superior se convierte en un anfiteatro para la realización de eventos de diversa índole. Por otro lado, se ubica una ludoteca pensada para que, desde niños hasta adultos mayores tengan un espacio de recreación en donde se plantean áreas de sombra y mobiliario urbano. Además, se propone un quiosco y área de servicio para venta de bebidas y bocadillos. 
+                   
+                    </h2>
+                   </div>
+                   <img src="imagenes/museo2.png" width="50%" height="50%"> 
+                   <img src="imagenes/museo.png" width="50%" height="50%">
+                   </div>
+                 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                 <div>
+                 <img src="imagenes/icono.png" width="46" height="46">
+                  </div>
+                  <h4> Aplicacion 6, PCA </h4>
+                 </div>
+                 </div>
+                 
+                 
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                  <h1>Héroes de la batalla</h1>
+  </div>
+ <div data-role="content" align="center">
+                  <div>
+                   <h2>
+ 
+ <h2>General Ignacio Zaragoza </h2>
+Famoso militar mexicano qiuen enfrentó las fuerzas francesas de Napoleón III en Acultzingo en la llamada Batalla de Las Cumbres de Acultzingo, el 28 de abril de 1862. Zaragoza comprendió la posición defensiva y favorable que tenía la ciudad de Puebla, paso obligado para ir a la Ciudad de México, y con un ejército más pequeño y menos equipado que los franceses, logró dar una batalla excepcional desde los cerros de Loreto y Guadalupe el 5 de mayo de 1862.
+<br>
+<h2>General Porfirio Díaz</h2>
+Militar y político mexicano, Porfirio Díaz ingresó en el ejército, y su carrera militar fue meteórica. En la guerra de Reforma (1858-1861), conflicto civil en el que se enfrentaron conservadores y liberales, apoyó la causa liberal. La guerra concluyó con la victoria de los liberales y llevó a la presidencia a Benito Juárez (1861); finalizada la contienda, Porfirio Díaz fue ascendido a general y elegido diputado. Apenas un año más tarde tomó de nuevo las armas contra la invasión francesa (1862-1863) y la coronación de Maximiliano I (1864-1867) como emperador de México. Fue jefe de brigada en Acultzingo en abril de 1862 y ese mismo año participó en la batalla de Cinco de Mayo al lado de Ignacio Zaragoza. El prestigio y popularidad ganados en sus últimas campañas lo dejó en situación de optar a la presidencia, pero el Congreso prefirió a Benito Juárez en 1867.
+<br>
+<h2>Felipe Berriazábal</h2>
+Felipe Berriozábal Militar e ingeniero, nació en Zacatecas. Fue gobernador de los estados de México, Michoacán y San Luis Potosí. Como militar llegó a General y fue ministro de Guerra y Marina. Participó en la Guerra de Reforma y contra la Intervención Francesa. En la batalla del 5 de mayo en Puebla, actuó bajo las órdenes del general Ignacio Zaragoza , aseguró el triunfo de los mexicanos al dar alcance con la caballería.  En 1863, fue hecho prisionero por los franceses, logró fugarse uniéndose al presidente Benito Juárez, quien lo designó en 1865 como Ministro de la Guerra.
+<br>
+<h2>Miguel Negrete</h2>
+Durante la Segunda Intervención Francesa en México, Negrete hizo a un lado su ideología conservadora y participó en la defensa del territorio mexicano, ante el avance de las tropas francesas hacia el centro de México, Negrete reacciona y se pone de parte del bando liberal con su célebre frase “Yo tengo Patria antes que Partido”.Unido al ejército republicano y a las órdenes del general Ignacio Zaragoza, ambos se cubren de gloria en la Batalla de Las Cumbres y en la Batalla de Puebla el 5 de mayo de 1862, llegando a ser considerado como el segundo héroe de dicha batalla al defender el Fuerte de Loreto.
+   </h2>
+                   </div>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/batalla5.jpg',1)"><img src="imagenes/batalla10.jpg" width="800" height="533" id="Image"></a> </div>
+                 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                 <div>
+                 <img src="imagenes/icono.png" width="46" height="46">
+                  </div>
+                  <h4> Aplicacion 6, PCA </h4>
+                 </div>
+                 </div>
+                 </body>
+                 </html> 
+                      
+                 
+
+ 
